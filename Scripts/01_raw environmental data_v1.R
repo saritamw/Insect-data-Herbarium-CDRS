@@ -6,7 +6,8 @@
 ### Summarized data to estimate means of temperature and humidity given the time intervals of the traps
 ### See insect dataset.
 
-env_data <- read_csv("~/R/CDRS Herbarium insects/Insect-data-Herbarium-CDRS/Data/Raw/Datos temperatura y humedad 2012-2020 Herbario CDS .csv")
+# env_data <- read_csv("~/R/CDRS Herbarium insects/Insect-data-Herbarium-CDRS/Data/Raw/Datos temperatura y humedad 2012-2020 Herbario CDS .csv")
+env_data <- read_csv("Data/Raw/Datos temperatura y humedad 2012-2020 Herbario CDS .csv")
 env_data <- as_tibble(env_data)
 
 names(env_data)
